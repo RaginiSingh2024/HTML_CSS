@@ -1,105 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ragini Singh - Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #000000;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            text-align: center;
+            padding-left: 20px;
+
+        }
+
+        li {
+            text-align: center;
+            padding: 5px;
+        }
+
+        img {
+            border-radius: 10%;
+            width: 230px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        ol {
+            color: #e74c3c;
+        }
+
+        .about-me {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            gap: 10px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 30px auto;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-me img {
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .about-me p {
+            max-width: 500px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
+
 <body>
-
-  <header>
     <h1>Ragini Singh</h1>
-    <p>B.Tech CSE Student | Web Developer | Tech Enthusiast</p>
-  </header>
-
-  <section id="about">
-    <img src="blob:https://web.whatsapp.com/80f587fb-12d1-415c-ac98-5a634b6a670f" alt="Ragini Singh" class="profile-pic"/>
-    <h2>About Me</h2>
-    <p>
-      Hello! I'm Ragini Singh, an aspiring web developer currently pursuing a Bachelor of Technology in Computer Science and Engineering at ITM Skills University. I love building creative, interactive web pages and exploring new technologies. 
+    <p>Hello, my name is Ragini Singh, and I am currently pursuing a Bachelor of Technology (B.Tech) in Computer
+        Science and Engineering at ITM Skills University.<br>
+        I enjoy working on real-world projects, participating in technical events, and collaborating with others to find
+        innovative solutions.<br>
+        My goal is to build a strong foundation in my field and contribute meaningfully to the tech industry.<br>
     </p>
-    <p>
-      I've participated in events like <strong>Mumbai Hacks</strong>, where I collaborated with a team to build innovative tech solutions. These experiences have helped me grow both technically and as a team player.
-    </p>
-  </section>
+    <hr>
 
-  <section id="interests">
+
     <h2>My Interests</h2>
     <ul>
-      <li>📚 Reading Books</li>
-      <li>🎧 Listening to Music</li>
-      <li>💃 Dancing</li>
-      <li>🎨 Sketching</li>
-      <li>🌍✈️Travelling</li>
+        <li style="color:blue">Reading Books</li>
+        <li style="color:darkgoldenrod">Listening Music</li>
+        <li style="color:darkcyan">Dance</li>
+        <li style="color:palevioletred">Sketching</li>
+        <li style="color:rebeccapurple">Playing Games</li>
     </ul>
-  </section>
+    <hr>
 
-  <section id="favorites">
+    <h2>Profile</h2>
+    <img src="myphoto.png" alt="Profile Picture">
+    <p style="font-size: 18px;margin-top: 15px;">I’m currently a student exploring the world of development and design.
+        I love solving problems and constantly learning new skills.</p>
+    <hr>
+
     <h2>My Favorite Foods</h2>
-    <ul>
-      <li>🍕 Pizza</li>
-      <li>🍜💛✨maggie</li>
-      <li>🍛 Biryani</li>
-      <li>🍔 Burgers</li>
-      <li>🍫 Chocolate Cake</li>
-    </ul>
-  </section>
+    <ol>
+        <li>Pizza</li>
+        <li>Maggie</li>
+        <li>Biryani</li>
+        <li>Burgers</li>
+        <li>Chocolate Cake</li>
+    </ol>
+    <hr>
 
-  <section id="fun-facts">
+    <h2>Contact Info</h2>
+    <p style="background-color: #ddd;padding: 5px;text-align: center;">Email:<a
+            href="mailto:raginisingh.sejal@gmail.com">Email me</a></p><br>
+    <p style="background-color: #ddd;padding: 5px;text-align: center;">Phone No:<a href="Call:9519834909">Call Me</a>
+    </p>
+    <hr>
+
     <h2>Fun Facts</h2>
     <ul>
-      <li>🧩 I love solving puzzles</li>
-      <li>🌍 I’m always up for an adventure</li>
-      <li>💪 I try 1 million times until I find my way!</li>
+        <li style="color:#3498db">I love solving puzzles</li>
+        <li style="color:#9b59b6">loves Adventure</li>
+        <li style="color:#2ecc71">Try 1 Million times until i find my way!</li>
     </ul>
-  </section>
+    <hr>
 
-  <section id="quote">
-    <h2>Favorite Quote</h2>
-    <blockquote>
-      “The only way to do great work is to love what you do.” – Steve Jobs
-    </blockquote>
-  </section>
-
-  <section id="gallery">
-    <h2>Welcome to My Gallery</h2>
-    <div class="gallery">
-      <img src="image1.jpg" alt="Gallery Image 1"/>
-      <img src="image2.jpg" alt="Gallery Image 2"/>
-      <img src="image3.jpg" alt="Gallery Image 3"/>
+    <h2>Youtube Video</h2>
+    <div style="text-align: center;">
+        <iframe width="80%" height="515" src="https://www.youtube.com/embed/HBqWsrqK89U?si=gkQh2c6FONuk7ghG"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-  </section>
+    <hr>
 
-  <section id="media">
-    <h2>My Audio Playlist</h2>
-    <audio controls>
-      <source src="your-audio.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+    <div style="text-align: center;">
+        <h2>My Audio Playlist</h2>
+        <audio controls style="width: 60%;">
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <hr>
 
-    <h2>My Favorite YouTube Video</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-  </section>
+    <div style="text-align: center;padding: 5px;">
+        <h2>Follow Me</h2>
+        <a href="https://https://github.com/RaginiSingh2024" target="_blank">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/ragini-singh-44236b319/" target="_blank">LinkedIn</a>
+        <a href="https://x.com/RaginiS69297674/" target="_blank">Twitter</a>
+    </div>
+    <hr>
 
-  <section id="contact">
-    <h2>Contact Info</h2>
-    <p>Email: <a href="mailto:your-email2024.raginis@isu.ac.in">Email me</a></p>
-    <p>Phone: <a href="tel:+9519834909">Call Me</a></p>
-  </section>
+    <h2>Favorite Quote</h2>
+    <blockquote style="text-align: center;background-color: #aba5a5;padding: 30px; ">
+        <i> "The only way to do great work is to love what you do." – Steve Jobs</i>
+    </blockquote>
+    <hr>
 
-  <section id="socials">
-    <h2>Follow Me</h2>
-    <p>
-      <a href="https://github.com/https://github.com/RaginiSingh2024" target="_blank">GitHub</a> | 
-      <a href="https://www.linkedin.com/in/www.linkedin.com/in/ragini-singh-44236b319" target="_blank">LinkedIn</a>
-       <a href="https://https://x.com/RaginiS69297674" target="_blank">Twitter</a>
-    </p>
-  </section>
+    <footer
+        style="text-align: center;background-color: #ef3a92;color: rgb(8, 7, 7);text-align: center;padding: 15px 0;position: relative;bottom: 0;width: 100%;;">
+        © 2025 Ragini Singh </footer>
+    <hr>
 
-  <footer>
-    <p>© 2025 Ragini Singh </p>
-  </footer>
+    <h2>Welcome to my Gallery</h2>
+    <div class="gallery">
+        <img style="max-width: 100%;width: 300px;height: auto;margin: 10px;border-radius: 8px;"
+            src="https://i.pinimg.com/736x/3c/55/45/3c55457fee2a871acc3d117052430943.jpg" alt="Image 1">
+        <img style="max-width: 100%;width: 300px;height: auto;margin: 10px;border-radius: 8px;"
+            src="https://i.pinimg.com/736x/d8/2d/32/d82d324a36b040778a816803225fe0f7.jpg" alt="Image 2">
+        <img style="max-width: 100%;width: 300px;height: auto;margin: 10px;border-radius: 8px;"
+            src="https://i.pinimg.com/736x/64/2c/e0/642ce0b468f341349a66f4093ed4c42e.jpg" alt="Image 3">
+    </div>
+    <hr>
 
+    <h2>About Me</h2>
+    <div class="about-me">
+        <img src="blob:https://web.whatsapp.com/80f587fb-12d1-415c-ac98-5a634b6a670f" alt="About Me Image">
+        <p>Hello! I'm Ragini Singh a aspiring web developer who enjoys designing interactive web pages and exploring
+            new technologies. I’ve also participated in events like Mumbai Hacks, where I collaborated with a team to
+            build creative tech solutions. These experiences have really helped me grow both technically and as a team
+            player.</p>
+    </div>
 </body>
+
 </html>
