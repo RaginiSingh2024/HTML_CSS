@@ -1,0 +1,107 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .name {
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .hobbies li {
+    list-style-type: square;
+    padding: 5px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    font-size: 1.2em;
+  }
+  
+  .foods li {
+    color: #e74c3c;
+  }
+  
+  .contact {
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  .fun-facts .blue {
+    color: #3498db;
+  }
+  
+  .fun-facts .purple {
+    color: #9b59b6;
+  }
+  
+  .fun-facts .green {
+    color: #2ecc71;
+  }
+  
+  .social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2c3e50;
+  }
+  
+  .social-links a:hover {
+    color: #e74c3c;
+  }
+  
+  .quote {
+    font-style: italic;
+    border-left: 4px solid #2c3e50;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    margin: 10px;
+    width: 30%;
+  }
+  
+  .about-me {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  .about-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    font-size: 1.1em;
+  }
+  
