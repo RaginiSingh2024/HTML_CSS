@@ -1,2 +1,2 @@
-# HTML_CSS
+# HTML_CSS_Project
 Personal_Webpage
