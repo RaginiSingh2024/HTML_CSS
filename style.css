@@ -87,43 +87,21 @@ body {
     width: 30%;
   }
   
- .about-me {
-  background-color: #f4f4f4;
-  padding: 2rem;
-  font-family: 'Arial', sans-serif;
-  text-align: center;
-}
-
-.about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.about-image img {
-  max-width: 300px;
-  border-radius: 10px;
-}
-
-.about-text {
-  max-width: 600px;
-  text-align: left;
-}
-
-.about-text h3 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-.about-text p {
-  margin-bottom: 0.8rem;
-  font-size: 1rem;
-  line-height: 1.6;
-}
+  .about-me {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  
+  .about-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    font-size: 1.1em;
+  }
+  
